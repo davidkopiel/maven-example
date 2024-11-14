@@ -1,0 +1,11 @@
+version: 1
+type: maven
+resolver:
+    serverId: https://idani.jfrog.io/
+    snapshotRepo: maven-libs-snapshot
+    releaseRepo: maven-libs-release
+deployer:
+    serverId: https://idani.jfrog.io/
+    snapshotRepo: maven-libs-snapshot
+    releaseRepo: maven-libs-release
+useWrapper: true
